@@ -1,0 +1,8 @@
+name: PlayerSaver
+version: ${project.version}
+main: me.xsme.playersaver.PlayerSaver
+
+permissions:
+  playersaver.save:
+    description: Allows for player saving once every one minute.
+    default: op
